@@ -1,5 +1,4 @@
-curl -L https://github.com/dunglas/frankenphp/releases/latest/download/frankenphp-linux-x86_64 \
-  -o frankenphp
-sudo mv frankenphp /usr/local/bin/frankenphp
+curl -L https://github.com/dunglas/frankenphp/releases/latest/download/frankenphp-linux-x86_64 \ -o frankenphp
+mv frankenphp /usr/local/bin/frankenphp
 frankenphp --version
 frankenphp php-server -r public/
